@@ -1,6 +1,6 @@
 # Choosing a laser altimeter (laser rangefinder) for a drone
 
-A practical guide to picking, mounting and tuning a **single-point laser rangefinder as a UAV altimeter** for terrain following, precision landing, obstacle avoidance and survey AGL hold. Written from bench and flight work with ArduPilot and PX4; vendor numbers come from the [laser-rangefinder-module-database](https://github.com/Tommyapi/laser-rangefinder-module-database).
+A practical guide to picking, mounting and tuning a **single-point laser rangefinder as a UAV altimeter** for terrain following, precision landing, obstacle avoidance and survey AGL hold. Written from bench and flight work with ArduPilot and PX4; vendor numbers come from the [laser-rangefinder-module-database](https://github.com/ErdiTech/laser-rangefinder-module-database).
 
 ## 1. The range number needs a target and conditions
 
@@ -35,7 +35,7 @@ For a sub-250 g drone holding 1–40 m AGL, a 905 nm module under 10 g is the us
 - **UART/TTL 3.3 V** is the common case: ArduPilot `SERIALx_PROTOCOL = 9` (Rangefinder) with the matching `RNGFND1_TYPE`; PX4 uses the driver for the module's protocol on a `SENS_` serial port.
 - **I2C** is fine for short cables (< 30 cm) and one or two sensors; use UART for anything longer or noisy (ESC wiring).
 - **CAN / DroneCAN** modules are the cleanest on larger aircraft.
-- Some modules need a measurement-trigger command and some stream continuously; a streaming module at the wrong baud produces zero readings with no error. Verify the frame with a decoder ([lrf-uart-protocol-decoder](https://github.com/Tommyapi/lrf-uart-protocol-decoder)) before blaming the flight controller.
+- Some modules need a measurement-trigger command and some stream continuously; a streaming module at the wrong baud produces zero readings with no error. Verify the frame with a decoder ([lrf-uart-protocol-decoder](https://github.com/ErdiTech/lrf-uart-protocol-decoder)) before blaming the flight controller.
 
 ## 5. Mounting
 
@@ -59,7 +59,7 @@ EK3_SRC1_POSZ     1      # baro; use 2 (rangefinder) only for low, flat work
 EK3_RNG_USE_HGT   70     # % of RNGFND1_MAX below which EKF uses the rangefinder for height
 ```
 
-Then check `rangefinder1` in the Mission Planner status tab at 1 m, 5 m and max usable height before enabling terrain following (`TERRAIN_FOLLOW`) or `RTL_ALT` tweaks. A complete worked example with bench logs is in [erdi-lrf-pixhawk-ardupilot](https://github.com/Tommyapi/erdi-lrf-pixhawk-ardupilot).
+Then check `rangefinder1` in the Mission Planner status tab at 1 m, 5 m and max usable height before enabling terrain following (`TERRAIN_FOLLOW`) or `RTL_ALT` tweaks. A complete worked example with bench logs is in [erdi-lrf-pixhawk-ardupilot](https://github.com/ErdiTech/erdi-lrf-pixhawk-ardupilot).
 
 ## 7. PX4 quick setup
 
@@ -107,8 +107,8 @@ Values from manufacturer pages; see the database for source links and capture da
 
 ## Related
 
-- [laser-rangefinder-module-database](https://github.com/Tommyapi/laser-rangefinder-module-database)
-- [awesome-laser-rangefinder](https://github.com/Tommyapi/awesome-laser-rangefinder)
+- [laser-rangefinder-module-database](https://github.com/ErdiTech/laser-rangefinder-module-database)
+- [awesome-laser-rangefinder](https://github.com/ErdiTech/awesome-laser-rangefinder)
 - [ArduPilot rangefinder setup](https://ardupilot.org/copter/docs/common-rangefinder-landingpage.html)
 - [PX4 distance sensors](https://docs.px4.io/main/en/sensor/rangefinders.html)
 
