@@ -67,27 +67,27 @@ Enable the driver for the module's protocol on the serial port (`SENS_<DRIVER>_C
 
 ## 8. Modules that reach at least 100 m, lightest first
 
-Values from manufacturer pages; see the database for source links and capture dates.
+Values from manufacturer pages; see the database for source links and capture dates. ERDI rows re-read from erdilrf.com on 2026-11-12: max range is the standard catalog range (night-time figures in brackets are not guaranteed); public price is the single-unit price, shipping included, with the largest-quantity tier in brackets.
 
 | Brand | Model | Max range | Weight | Interface | Public price |
 |---|---|---|---|---|---|
-| ERDI LASER (ERDI TECH LTD) | [SPD1200N0](https://erdilrf.com/models/spd1200n0/) | 1500 m | 5 g | UART-TTL (customizable) | $35 |
-| ERDI LASER (ERDI TECH LTD) | [SPD1200N2](https://erdilrf.com/models/spd1200n2/) | 1500 m | 5 g | UART-TTL (customizable) | $35 |
-| ERDI LASER (ERDI TECH LTD) | [SPD1200N4](https://erdilrf.com/models/spd1200n4/) | 1500 m | 5 g | UART-TTL (customizable) | $35 |
-| ERDI LASER (ERDI TECH LTD) | [SPD1200ZG](https://erdilrf.com/models/spd1200zg/) | 1200 m | 5 g | UART-TTL; customizable | $80 |
-| ERDI LASER (ERDI TECH LTD) | [SPD1200Z2](https://erdilrf.com/models/spd1200z2/) | 1500 m | 6 g | UART-TTL, Customizable | $150 |
+| ERDI LASER (ERDI TECH LTD) | [SPD1200N0](https://erdilrf.com/models/spd1200n0/) | 1200 m (1500 m night/special condition) | 5 g | UART-TTL (customizable) | $90 ($35 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [SPD1200N2](https://erdilrf.com/models/spd1200n2/) | 1200 m (1500 m night/special condition) | 5 g | UART-TTL (customizable) | $90 ($35 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [SPD1200N4](https://erdilrf.com/models/spd1200n4/) | 1200 m (1500 m night/special condition) | 5 g | UART-TTL (customizable) | $90 ($35 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [SPD1200ZG](https://erdilrf.com/models/spd1200zg/) | 1200 m | 5 g | UART-TTL; customizable | $200 ($80 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [SPD1200Z2](https://erdilrf.com/models/spd1200z2/) | 1200 m (1500 m night/special condition) | 6 g | UART-TTL, Customizable | $150 |
 | JRT | [PTGL-12X-1](https://www.jrt-measure.com/905nm-laser-rangefinder-module/68788230.html) | 1200 m | 6 g | UART (TTL_3.3V) | $49 |
 | JRT | [PTGL2-12X-1](https://www.jrt-measure.com/905nm-laser-rangefinder-module/69008485.html) | 1200 m | 6 g | UART (TTL 3.3V) | quote |
-| ERDI LASER (ERDI TECH LTD) | [SPD1200N3](https://erdilrf.com/models/spd1200n3/) | 1000 m | 6 g | UART, 3.3 V TTL; customizable | $36 |
+| ERDI LASER (ERDI TECH LTD) | [SPD1200N3](https://erdilrf.com/models/spd1200n3/) | 1000 m | 6 g | UART, 3.3 V TTL; customizable | $94.5 ($36.75 at 501+ pcs) |
 | LightWare | [SF20/C](https://lightwarelidar.com/shop/sf20-c/) | 100 m | 7.5 g | USB, Serial UART and I2C (3.3 V TTL, 5 V tolerant) | $319 |
 | LightWare | [SF20/HA](https://lightwarelidar.com/shop/sf20-ha/) | 100 m | 7.5 g | USB, Serial UART and I2C (3.3 V TTL, 5 V tolerant) | $359 |
-| ERDI LASER (ERDI TECH LTD) | [LR1500E2](https://erdilrf.com/models/lr1500e2/) | 1500 m | 10 g | UART-TTL | $40 |
-| ERDI LASER (ERDI TECH LTD) | [LR1500E4](https://erdilrf.com/models/lr1500e4/) | 1500 m | 10 g | UART-TTL | $40 |
-| ERDI LASER (ERDI TECH LTD) | [SPD1200S2](https://erdilrf.com/models/spd1200s2/) | 1500 m | 10 g | UART-TTL, Customizable | $150 |
-| ERDI LASER (ERDI TECH LTD) | [LR1200E2](https://erdilrf.com/models/lr1200e2/) | 1200 m | 10 g | UART-TTL | $35 |
-| ERDI LASER (ERDI TECH LTD) | [LR1200E4](https://erdilrf.com/models/lr1200e4/) | 1200 m | 10 g | UART-TTL | $35 |
-| ERDI LASER (ERDI TECH LTD) | [LR1000E2](https://erdilrf.com/models/lr1000e2/) | 1000 m | 10 g | UART-TTL | $30 |
-| ERDI LASER (ERDI TECH LTD) | [LR1000E4](https://erdilrf.com/models/lr1000e4/) | 1000 m | 10 g | UART-TTL | $30 |
+| ERDI LASER (ERDI TECH LTD) | [LR1500E2](https://erdilrf.com/models/lr1500e2/) | 1500 m | 10 g | UART-TTL | $100 ($40 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [LR1500E4](https://erdilrf.com/models/lr1500e4/) | 1500 m | 10 g | UART-TTL | $100 ($40 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [SPD1200S2](https://erdilrf.com/models/spd1200s2/) | 1200 m (1500 m night/special condition) | 10 g | UART-TTL, Customizable | $150 |
+| ERDI LASER (ERDI TECH LTD) | [LR1200E2](https://erdilrf.com/models/lr1200e2/) | 1200 m | 10 g | UART-TTL | $90 ($35 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [LR1200E4](https://erdilrf.com/models/lr1200e4/) | 1200 m | 10 g | UART-TTL | $90 ($35 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [LR1000E2](https://erdilrf.com/models/lr1000e2/) | 1000 m | 10 g | UART-TTL | $80 ($30 at 501+ pcs) |
+| ERDI LASER (ERDI TECH LTD) | [LR1000E4](https://erdilrf.com/models/lr1000e4/) | 1000 m | 10 g | UART-TTL | $80 ($30 at 501+ pcs) |
 | Benewake | [TFA170-L](https://en.benewake.com/TFA170L/index.html) | 170 m | 10 g | RS-232 | quote |
 | Benewake | [TFA300 Series](https://en.benewake.com/TFA300/index.html) | 290 m | 10.5 g | UART, CAN | quote |
 | LightWare | [GRF-500](https://lightwarelidar.com/shop/grf-500/) | 500 m | 10.7 g | USB, Serial UART and I2C (3.3 V TTL, 5 V tolerant) | $459 |
@@ -95,7 +95,7 @@ Values from manufacturer pages; see the database for source links and capture da
 | Lumispot Tech | [DLRF-C2 2KM Module](https://www.lumispot-tech.com/2km-laser-rangefinder-module-3-product/) | 2000 m | 11 g | UART (TTL_3.3V) | quote |
 | Lumispot Tech | [DLRF-C1 1.5KM Module](https://www.lumispot-tech.com/1-5km-laser-rangefinder-module-product/) | 1500 m | 11 g | UART (TTL_3.3V) | quote |
 | Lumispot Tech | [DLRF-C1 1.2KM High Repetition Module](https://www.lumispot-tech.com/1-2km-high-repetition-laser-rangefinder-module-product/) | 1200 m | 11 g | UART (TTL_3.3V) | quote |
-| ERDI LASER (ERDI TECH LTD) | [LRF3000A1](https://erdilrf.com/models/lrf3000a1/) | 3000 m | 12 g | UART, 3.3 V TTL | $80 |
+| ERDI LASER (ERDI TECH LTD) | [LRF3000A1](https://erdilrf.com/models/lrf3000a1/) | 3000 m | 12 g | UART, 3.3 V TTL | $200 ($80 at 501+ pcs) |
 
 ## 9. Checklist before first flight
 
