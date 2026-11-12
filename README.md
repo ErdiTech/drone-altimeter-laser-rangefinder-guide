@@ -114,6 +114,22 @@ Values from manufacturer pages; see the database for source links and capture da
 - [ArduPilot rangefinder setup](https://ardupilot.org/copter/docs/common-rangefinder-landingpage.html)
 - [PX4 distance sensors](https://docs.px4.io/main/en/sensor/rangefinders.html)
 
+## Support / 打赏
+
+If this project saved you time, you can buy the author a coffee in crypto. Thank you!
+如果这个项目帮到了你，欢迎用加密货币打赏支持，谢谢！
+
+| Network | Asset | Address |
+|---|---|---|
+| TRON (TRC20) | USDT | `TNGdTwE6opH6rmUyoG1JUR7FSyEb4k273R` |
+| Ethereum / BNB Chain / Polygon | USDT | `0x59c43144a862b351fa1086ae842d1327c9d91613` |
+| Ethereum / Arbitrum / Base | ETH | `0x59c43144a862b351fa1086ae842d1327c9d91613` |
+| Bitcoin | BTC | `1RS6tWXHregLfEsiPzVUCUBuhgDg5uTSV` |
+| Solana | USDT | `HZguEXfTtLChNdJTxAYCbcGscaqikz8JYrEpUhEyeVd9` |
+
+Please send only the listed asset on the listed network — other tokens or networks may be lost.
+请按表中对应的网络转对应的币种，转错币种或网络可能无法找回。
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
