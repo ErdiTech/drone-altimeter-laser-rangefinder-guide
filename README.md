@@ -1,5 +1,7 @@
 # Choosing a laser altimeter (laser rangefinder) for a drone
 
+Datasheets and public prices are on the [LRF22VB page](https://erdilrf.com/models/lrf22vb/?utm_source=github&utm_medium=readme&utm_campaign=drone-altimeter-laser-rangefinder-guide) and in the [full ERDI laser rangefinder model list](https://erdilrf.com/models/?utm_source=github&utm_medium=readme&utm_campaign=drone-altimeter-laser-rangefinder-guide).
+
 A practical guide to picking, mounting and tuning a **single-point laser rangefinder as a UAV altimeter** for terrain following, precision landing, obstacle avoidance and survey AGL hold. Written from bench and flight work with ArduPilot and PX4; vendor numbers come from the [laser-rangefinder-module-database](https://github.com/ErdiTech/laser-rangefinder-module-database).
 
 ## 1. The range number needs a target and conditions
