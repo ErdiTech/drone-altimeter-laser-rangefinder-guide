@@ -2,6 +2,12 @@
 
 Datasheets and public prices are on the [LRF22VB page](https://erdilrf.com/models/lrf22vb/?utm_source=github&utm_medium=readme&utm_campaign=drone-altimeter-laser-rangefinder-guide) and in the [full ERDI laser rangefinder model list](https://erdilrf.com/models/?utm_source=github&utm_medium=readme&utm_campaign=drone-altimeter-laser-rangefinder-guide).
 
+Where a range figure comes from the manufacturer with a test condition attached — target size, reflectance,
+visibility — that sentence is reproduced verbatim on
+[the specification site](https://specs.erdilrf.com/models/), one page per model. Models whose sheet gives no
+condition are marked there rather than filled in. Useful when you need to justify a range budget to someone who
+will ask what it was measured against.
+
 A practical guide to picking, mounting and tuning a **single-point laser rangefinder as a UAV altimeter** for terrain following, precision landing, obstacle avoidance and survey AGL hold. Written from bench and flight work with ArduPilot and PX4; vendor numbers come from the [laser-rangefinder-module-database](https://github.com/ErdiTech/laser-rangefinder-module-database).
 
 ## 1. The range number needs a target and conditions
